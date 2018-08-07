@@ -9,6 +9,7 @@ class Genre
     Song.all.select { |song| song.genre == self}
   end
 
-  def artists 
+  def artists
     Song.map { |song| song.artist}
+  end
 end
