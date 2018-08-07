@@ -12,7 +12,7 @@ class Artist
     @@all
   end
 
-  def songs
+  def self.songs
     @songs
   end
 
